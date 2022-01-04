@@ -1,5 +1,5 @@
 import "../scss/app.scss";
-const R = require('ramda');
+const R = require("ramda");
 //const { pluck } = R;
 
 window.addEventListener("DOMContentLoaded", () => {
