@@ -1,6 +1,7 @@
 import "../scss/app.scss";
-const R = require("ramda");
+//const R = require("ramda");
 //const { pluck } = R;
+import * as R from 'ramda';
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
@@ -17,8 +18,5 @@ window.addEventListener("DOMContentLoaded", () => {
   for(let i = 0; i < articles.length; i++){
      articles[i].classList.add(c[i])
   }
-
-  console.log('dada')
-  
 
 });
