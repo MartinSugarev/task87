@@ -22,5 +22,28 @@
         <div class="message-body">Article 3</div>
       </article>
     </div>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+  // This block will be executed once the page is loaded and ready
+
+  const arrayToPluck = [
+    { name: "John", class: "is-primary" },
+    { age: 23, class: "is-warning" },
+    { job: "programmer", class: "is-danger" },
+  ];
+  const articles = document.querySelectorAll("article");
+
+  //const c = pluck('class', arrayToPluck)
+  c = ["is-primary", "is-warning","is-danger"]
+  
+  for(let i = 0; i < articles.length; i++){
+     articles[i].classList.add(c[i])
+  }
+
+  console.log('dada')
+  
+
+});
+    </script>
   </body>
 </html>

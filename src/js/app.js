@@ -15,8 +15,10 @@ window.addEventListener("DOMContentLoaded", () => {
   const c = pluck('class', arrayToPluck)
   
   for(let i = 0; i < articles.length; i++){
-     articles[i].classList.add(c[0])
+     articles[i].classList.add(c[i])
   }
+
+  console.log('dada')
   
 
 });
